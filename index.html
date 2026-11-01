@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Любимый город – ресторан в Великом Устюге, площадь Коммуны</title>
+<meta name="description" content="Ресторан «Любимый город» в Великом Устюге: блюда Вологодского края, банкеты и праздники. Площадь Коммуны, 1. Работаем со вторника по воскресенье с 12 до 23. +7 921 052-80-90.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Ресторан «Любимый город»">
+<meta property="og:title" content="Ресторан «Любимый город» в Великом Устюге">
+<meta property="og:description" content="Блюда Вологодского края, банкеты и праздники на площади Коммуны. Рейтинг 5,0 на Яндекс Картах.">
+<meta property="og:image" content="./assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f5f0e6">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%232b1b12%27/%3E%3Cpath d=%27M9 25V14a7 7 0 0 1 14 0v11z%27 fill=%27none%27 stroke=%27%23d9a94e%27 stroke-width=%271.8%27/%3E%3Cpath d=%27M16 25V15%27 stroke=%27%23d9a94e%27 stroke-width=%271.4%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Любимый город","servesCuisine":["Русская","Блюда Вологодского края"],"telephone":"+79210528090","address":{"@type":"PostalAddress","streetAddress":"площадь Коммуны, 1","addressLocality":"Великий Устюг","addressRegion":"Вологодская область","addressCountry":"RU"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"23:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","ratingCount":"922"},"sameAs":["https://vk.ru/restaurantfavoritecity"]}
+</script>
+<style>
+  /* ---- тема «Тёмный орех и позолота»: интерьер зала – орех, золото на резьбе, кремовые скатерти ---- */
+  .v-page {
+    --v-canvas: #f5f0e6; --v-surface: #fffdf8;
+    --v-ink: #2b1b12; --v-ink-soft: #6a5646;
+    --v-accent: #c9973f; --v-accent-ink: #1e1206;
+    --on-photo: #f6efe2; --on-photo-soft: #e1d6c3;
+    --v-shadow-color: 60 38 18;
+    --v-font-display: "Playfair Display", "Georgia", serif;
+    --v-font-text: "Golos Text", "Segoe UI", system-ui, sans-serif;
+    --v-display-weight: 500;
+    --v-track-tight: -0.01em;
+    --v-radius: 4px;
+    --v-section: clamp(4.5rem, 10vw, 9rem);
+  }
+  html, body { margin: 0; background: #f5f0e6; }
+  html { scroll-padding-top: 5rem; }
+  .v-page { line-height: 1.62; letter-spacing: .005em; }
+  .v-page .v-display { line-height: 1.08; }
+  .v-page .v-display--xl { font-size: clamp(2.5rem, 1.3rem + 4.2vw, 5.6rem); line-height: 1.02; }
+  .v-page h3 { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-xl); line-height: 1.15; }
+  .v-page p { text-wrap: pretty; }
+  .soft { color: var(--v-ink-soft); }
+  .slot { background: color-mix(in oklab, var(--v-accent) 25%, transparent); border-radius: 3px; padding: 0 .25em; }
+  .v-page a.link { color: var(--v-ink); text-decoration: underline; text-decoration-color: color-mix(in oklab, var(--v-accent) 80%, transparent); text-underline-offset: .22em; transition: text-decoration-color .16s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .v-page a.link:hover { text-decoration-color: var(--v-accent); } }
+  .q { font-family: var(--v-font-display); }
+  .who { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+
+  /* ---- шапка ---- */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; gap: var(--v-5); padding: .8rem var(--v-gutter); transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar:not(.is-scrolled) { --v-ink: var(--on-photo); --v-ink-soft: var(--on-photo-soft); color: var(--v-ink); }
+  .bar.is-scrolled { background: rgb(245 240 230 / .92); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__brand { display: flex; align-items: baseline; gap: .7rem; font-family: var(--v-font-display); font-size: 1.5rem; line-height: 1; text-decoration: none; }
+  .bar__brand small { font-family: var(--v-font-text); font-size: var(--v-t-xs); color: var(--v-ink-soft); letter-spacing: .02em; }
+  @media (max-width: 480px) { .bar__brand { font-size: 1.2rem; } .bar { gap: var(--v-3); padding-inline: 1rem; } .bar .v-btn { padding: .65em 1em; font-size: .8rem; } }
+  .bar nav { display: flex; gap: var(--v-5); margin-left: auto; font-size: var(--v-t-sm); }
+  .bar nav a { text-decoration: none; color: var(--v-ink-soft); transition: color .16s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .bar nav a:hover { color: var(--v-ink); } }
+  .bar .v-btn { padding: .7em 1.2em; }
+  @media (max-width: 960px) { .bar nav { display: none; } .bar .v-btn { margin-left: auto; } .bar__brand small { display: none; } }
+
+  /* ---- 1 · hero ---- */
+  #top { --v-ink: var(--on-photo); --v-ink-soft: var(--on-photo-soft); color: var(--v-ink); }
+  .hero__back { inset: -6% 0; }
+  .hero__back img, .hero__back picture { width: 100%; height: 100%; }
+  .hero__back img { object-fit: cover; object-position: 8% 50%; }
+  .hero__shade { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(90deg, rgb(20 11 5 / .86) 0%, rgb(20 11 5 / .6) 36%, transparent 64%), linear-gradient(to top, rgb(20 11 5 / .7), transparent 38%); }
+  .hero__copy { max-width: min(46rem, 88vw); }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 30ch; color: #eadfcb; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-5); margin-top: var(--v-6); }
+  .hero__when { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .hero__when b { font-weight: 500; color: var(--v-ink); }
+  @media (max-width: 860px) {
+    .hero__back img { object-position: 50% 30%; }
+    .hero__shade { background: linear-gradient(to top, rgb(20 11 5 / .93) 0%, rgb(20 11 5 / .65) 42%, transparent 74%); }
+    .hero__copy.v-copy--lead { bottom: clamp(2rem, 7vh, 4rem); }
+  }
+
+  /* ---- 2 · сегодня (фирменный ход): открыто ли сейчас и часы ---- */
+  .today { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .today__ph { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: var(--v-radius); box-shadow: var(--v-e2); }
+  .today__ph img { width: 100%; height: 100%; object-fit: cover; }
+  .today__ph figcaption { position: absolute; left: 1rem; bottom: .9rem; font-size: var(--v-t-xs); color: #f6ecdc; text-shadow: 0 1px 8px rgb(0 0 0 / .7); }
+  .today__lead { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .today__time { font-family: var(--v-font-display); font-size: clamp(3rem, 1.8rem + 5.6vw, 7rem); line-height: .98; letter-spacing: -.02em; font-variant-numeric: tabular-nums; margin-top: var(--v-3); }
+  .today__time small { display: block; font-family: var(--v-font-text); font-size: var(--v-t-lg); letter-spacing: 0; color: var(--v-ink); margin-bottom: var(--v-3); }
+  .today__note { margin-top: var(--v-5); max-width: 40ch; font-size: var(--v-t-lg); line-height: 1.45; }
+  .status { display: inline-flex; align-items: center; gap: .55rem; margin-top: var(--v-7); font-size: var(--v-t-sm); }
+  .status i { width: .55rem; height: .55rem; border-radius: 50%; background: #3f9a5c; box-shadow: 0 0 0 4px rgb(63 154 92 / .16); }
+  .status.is-closed i { background: var(--v-ink-soft); box-shadow: 0 0 0 4px rgb(106 86 70 / .16); }
+  .hours { margin-top: var(--v-4); display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); }
+  .hours li { padding: .7rem .2rem 0; color: var(--v-ink-soft); }
+  .hours li b { display: block; font-weight: 500; color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .hours li.is-today { color: var(--v-ink); box-shadow: inset 0 2px 0 var(--v-accent); }
+  .hours li.is-today b { color: var(--v-ink); }
+  .tip { margin-top: var(--v-6); padding-top: var(--v-5); border-top: 1px solid var(--v-hair); max-width: 44ch; }
+  .tip p { font-family: var(--v-font-display); font-size: var(--v-t-lg); line-height: 1.35; }
+  .tip p.who { margin-top: var(--v-2); font-family: var(--v-font-text); font-size: var(--v-t-sm); line-height: 1.5; }
+  @media (max-width: 860px) {
+    .today { grid-template-columns: 1fr; }
+    .today__ph { aspect-ratio: 3 / 4; width: min(100%, calc(72svh * .75)); }
+    .hours { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: .4rem; }
+  }
+
+  /* ---- 3 · меню: веер страниц меню (pin) ---- */
+  .fanwrap { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(1.5rem, 4vw, 4rem); align-items: center; padding: 5.5rem var(--v-gutter) 2rem; max-width: 84rem; margin-inline: auto; }
+  .fanwrap__copy { display: flex; flex-direction: column; gap: var(--v-5); max-width: 30rem; }
+  .fan { position: relative; height: min(70svh, 38rem); --open: min(1, calc(var(--v-p, 0) * 2.6 + .06)); --ang: 5deg; --spread: clamp(2.6rem, 4.6vw, 4.4rem); --cw: clamp(10rem, 14vw, 14rem); }
+  .v-page .fan__card { position: absolute; left: 50%; bottom: 4%; width: var(--cw); padding: .45rem .45rem 0; border-radius: 6px; background: #ffffff; color: #2b1b12; box-shadow: 0 1px 3px rgb(60 38 18 / .18), 0 16px 36px rgb(60 38 18 / .24); cursor: zoom-in; text-align: left;
+    transform-origin: 50% 150%;
+    transform: translateX(-50%) translateX(calc(var(--d) * var(--spread) * var(--open))) rotate(calc(var(--d) * var(--ang) * var(--open)));
+    transition: translate .18s var(--v-ease-out); }
+  .fan__card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: top; border-radius: 3px; }
+  .fan__card span { display: block; padding: .5rem .15rem .6rem; font-size: var(--v-t-xs); font-weight: 500; line-height: 1.3; }
+  @media (hover: hover) and (pointer: fine) { .v-page .fan__card:hover { translate: 0 -1.4rem; z-index: 10; } }
+  .v-page .fan__card:focus-visible { translate: 0 -1.4rem; z-index: 10; }
+  .fan__hint { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .fanwrap { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-items: start; gap: var(--v-3); padding: 4.8rem var(--v-gutter) 1rem; }
+    .fanwrap__copy { gap: var(--v-3); }
+    .fanwrap__copy .v-display--md { font-size: var(--v-t-xl); }
+    .fan { height: 100%; min-height: 20rem; --ang: 3.5deg; --spread: 1.6rem; --cw: 7.7rem; }
+    .v-page .fan__card { transform-origin: 50% 140%; bottom: auto; top: 12%; }
+  }
+
+  /* ---- 4 · блюда Вологодского края: фото + меню с ценами ---- */
+  .cuisine { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .cuisine__ph { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 4 / 3; box-shadow: var(--v-e2); }
+  .cuisine__ph img { width: 100%; height: 112%; object-fit: cover; }
+  .cuisine__ph + p { margin-top: var(--v-3); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .page li { padding: .9rem 0; border-top: 1px solid var(--v-hair); }
+  .page li:first-child { border-top: 0; padding-top: 0; }
+  .line { display: flex; align-items: baseline; gap: .6rem; }
+  .line span { font-weight: 500; }
+  .line::after { content: ""; order: 1; flex: 1; border-bottom: 1px dotted var(--v-hair-strong); transform: translateY(-.25em); }
+  .line em { order: 2; font-style: normal; font-size: var(--v-t-sm); color: var(--v-ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .page li p { font-size: var(--v-t-sm); color: var(--v-ink-soft); margin-top: .25rem; }
+  .cuisine__note { margin-top: var(--v-5); font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 46ch; }
+  @media (max-width: 860px) { .cuisine { grid-template-columns: 1fr; } }
+
+  /* ---- 5 · отзывы ---- */
+  .rev__head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--v-5); }
+  .rating { display: flex; align-items: center; gap: var(--v-4); }
+  .rating b { font-family: var(--v-font-display); font-weight: 500; font-size: var(--v-t-3xl); line-height: 1; }
+  .stars { color: var(--v-accent); letter-spacing: .12em; font-size: 1.05rem; }
+  .rev__big { margin-top: var(--v-8); max-width: 26ch; font-family: var(--v-font-display); font-size: var(--v-t-2xl); line-height: 1.2; }
+  .rev__big + .who { margin-top: var(--v-4); }
+  .rev__more { margin-top: var(--v-8); }
+  @media (max-width: 760px) { .rev__big { font-size: var(--v-t-xl); line-height: 1.25; } .rev__more { margin-top: var(--v-7); } }
+
+  /* ---- 6 · банкеты и праздники ---- */
+  .fest { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .fest__ph { position: relative; padding-bottom: 14%; }
+  .fest__ph .a { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 4 / 3; box-shadow: var(--v-e2); }
+  .fest__ph .b { position: absolute; right: -6%; bottom: 0; width: 52%; aspect-ratio: 3 / 2; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2); outline: 6px solid var(--v-canvas); }
+  .fest__ph img { width: 100%; height: 100%; object-fit: cover; }
+  .facts { margin-top: var(--v-6); }
+  .facts li { display: grid; grid-template-columns: 8.5rem 1fr; gap: var(--v-4); padding: .85rem 0; border-top: 1px solid var(--v-hair); }
+  .facts li span { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  @media (max-width: 860px) { .fest { grid-template-columns: 1fr; } .fest__ph .b { right: 0; } .facts li { grid-template-columns: 1fr; gap: .1rem; } }
+
+  /* ---- 7 · как найти ---- */
+  .road { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+  .road__ph { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 4 / 3; box-shadow: var(--v-e2); }
+  .road__ph img { width: 100%; height: 112%; object-fit: cover; }
+  .road .actions { display: flex; flex-wrap: wrap; gap: var(--v-3); margin-top: var(--v-6); }
+  @media (max-width: 860px) { .road { grid-template-columns: 1fr; } .road__ph { order: -1; } }
+
+  .lb { padding: 0; border: 0; background: transparent; max-width: 94vw; max-height: 92svh; overflow: visible; }
+  .lb::backdrop { background: rgb(14 8 4 / .9); }
+  .lb img { display: block; max-width: 94vw; max-height: 86svh; width: auto; height: auto; border-radius: var(--v-radius); }
+  .v-page .lb__close, .lb__close { display: block; margin: .8rem auto 0; padding: .55em 1.2em; border-radius: 999px; color: #f6efe2; font: inherit; font-size: .9rem; background: transparent; border: 1px solid rgb(246 239 226 / .4); cursor: pointer; }
+
+  /* ---- 8 · финал ---- */
+  .final { position: relative; overflow: hidden; }
+  .final::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(60rem 30rem at calc(var(--v-mx, .5) * 100%) 110%, rgb(201 151 63 / .22), transparent 60%); }
+  .close { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: var(--v-5); }
+  .close h2 { max-width: 16ch; }
+  .close p { max-width: 42ch; font-size: var(--v-t-lg); }
+  .close .actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-5); margin-top: var(--v-3); }
+  .foot { position: relative; margin-top: var(--v-9); padding-top: var(--v-5); border-top: 1px solid var(--v-hair); display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--v-3) var(--v-6); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <div data-v-progress></div>
+  <div class="v-grain" aria-hidden="true"></div>
+
+  <header class="bar">
+    <a class="bar__brand" href="#top" aria-label="Любимый город – наверх">Любимый город<small>ресторан в Великом Устюге</small></a>
+    <nav aria-label="Разделы">
+      <a href="#segodnya">Сегодня</a>
+      <a href="#menu">Меню</a>
+      <a href="#blyuda">Блюда</a>
+      <a href="#otzyvy">Отзывы</a>
+      <a href="#banket">Банкеты</a>
+      <a href="#doroga">Как найти</a>
+    </nav>
+    <a class="v-btn" href="tel:+79210528090">Забронировать стол</a>
+  </header>
+
+  <main>
+
+    <!-- 1 · УЗНАВАНИЕ: вход в ресторан -->
+    <section id="top" data-v-act="pin" data-v-span="1.6" data-v-drift="#f5f0e6" aria-label="Ресторан «Любимый город» в Великом Устюге">
+      <div data-v-stage>
+        <div class="v-layer hero__back" data-v-parallax="-0.5">
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+            <img src="assets/hero.webp" alt="Вход в ресторан «Любимый город» вечером: вывеска, резные двери, огни на площади" width="1920" height="768" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="v-copy v-copy--lead hero__copy" data-v-cue="0 0.85 0 0.12">
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Ресторан «Любимый город» в Великом Устюге</h1>
+          <p class="v-lede">Блюда Вологодского края, банкеты и праздники. Площадь Коммуны, 1.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="tel:+79210528090">Забронировать стол</a>
+            <span class="hero__when"><b>+7 921 052-80-90</b><br>вторник – воскресенье, 12:00 – 23:00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · ФИРМЕННЫЙ ХОД: сегодня в «Любимом городе» – открыто ли сейчас и часы -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#f2ece0" id="segodnya" aria-label="Сегодня в «Любимом городе»">
+      <div class="v-wrap today">
+        <figure class="today__ph" data-v-reveal="up" data-v-reveal-at="0.08 0.4">
+          <img src="assets/zal.webp" alt="Зал ресторана: резные колонны, диваны, белое пианино на переднем плане" width="960" height="1280" loading="lazy" decoding="async">
+          <figcaption>Зал ресторана. Фото со страницы ВКонтакте</figcaption>
+        </figure>
+        <div data-v-in data-v-stagger="80">
+          <p class="today__lead" data-today-date>Сегодня в Великом Устюге</p>
+          <p class="today__time"><small data-time-label>Сегодня работаем</small><span data-time-text>12:00 – 23:00</span></p>
+          <p class="today__note" data-time-note>Столик на компанию или праздник лучше бронировать заранее.</p>
+          <div>
+            <p class="status" data-status><i aria-hidden="true"></i><span data-status-text>Вторник – воскресенье с 12:00</span></p>
+            <ul class="hours" data-hours aria-label="Часы работы">
+              <li data-d="1"><b>Пн</b>выходной</li>
+              <li data-d="2"><b>Вт</b>12–23</li>
+              <li data-d="3"><b>Ср</b>12–23</li>
+              <li data-d="4"><b>Чт</b>12–23</li>
+              <li data-d="5"><b>Пт</b>12–23</li>
+              <li data-d="6"><b>Сб</b>12–23</li>
+              <li data-d="0"><b>Вс</b>12–23</li>
+            </ul>
+          </div>
+          <div class="tip">
+            <p>«Режим работы: вторник – воскресенье с 12 до 23 часов. Понедельник – выходной.»</p>
+            <p class="who">Так написано на табличке у входа в ресторан.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · ВЫБОР: страницы меню веером -->
+    <section id="menu" data-v-act="pin" data-v-span="2.2" data-v-drift="#efe8da" aria-label="Меню">
+      <div data-v-stage>
+        <div class="fanwrap">
+          <div class="fanwrap__copy">
+            <h2 class="v-display v-display--md">Меню «Любимого города»</h2>
+            <p class="soft">Страницы меню ресторана: блюда Вологодского края, чай и кофе, бар и вино. Меню подано со страницы ресторана ВКонтакте, цены и наличие лучше уточнить по телефону.</p>
+            <p class="fan__hint">Нажмите на страницу, чтобы прочитать крупно. <a class="link" href="#blyuda">Блюда с ценами списком</a></p>
+          </div>
+          <div class="fan">
+            <button type="button" class="fan__card" style="--d: -3" data-full="assets/menu-chai-full.webp"><img src="assets/menu-chai.webp" alt="Страница меню: чай и кофе" width="600" height="800" loading="lazy" decoding="async"><span>Чай и кофе</span></button>
+            <button type="button" class="fan__card" style="--d: -2" data-full="assets/menu-pivo-full.webp"><img src="assets/menu-pivo.webp" alt="Страница меню: ликёры, бальзамы, пиво" width="600" height="800" loading="lazy" decoding="async"><span>Ликёры, бальзамы, пиво</span></button>
+            <button type="button" class="fan__card" style="--d: -1" data-full="assets/menu-kokteili-full.webp"><img src="assets/menu-kokteili.webp" alt="Страница меню: коктейли и настойки" width="600" height="800" loading="lazy" decoding="async"><span>Коктейли и настойки</span></button>
+            <button type="button" class="fan__card" style="--d: 0" data-full="assets/menu-blyuda-full.webp"><img src="assets/menu-blyuda.webp" alt="Страница меню: блюда Вологодского края" width="600" height="800" loading="lazy" decoding="async"><span>Блюда Вологодского края</span></button>
+            <button type="button" class="fan__card" style="--d: 1" data-full="assets/menu-vodka-full.webp"><img src="assets/menu-vodka.webp" alt="Страница меню: водка, вода, безалкогольное" width="600" height="800" loading="lazy" decoding="async"><span>Водка и вода</span></button>
+            <button type="button" class="fan__card" style="--d: 2" data-full="assets/menu-viski-full.webp"><img src="assets/menu-viski.webp" alt="Страница меню: виски, ром, текила, джин" width="600" height="800" loading="lazy" decoding="async"><span>Виски, ром, джин</span></button>
+            <button type="button" class="fan__card" style="--d: 3" data-full="assets/menu-vino-full.webp"><img src="assets/menu-vino.webp" alt="Страница меню: вино красное сухое" width="600" height="800" loading="lazy" decoding="async"><span>Вино красное</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · КУХНЯ: блюда Вологодского края с ценами -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f4eee3" id="blyuda" aria-label="Блюда Вологодского края">
+      <div class="v-wrap cuisine">
+        <div>
+          <div class="cuisine__ph"><img src="assets/blyuda.webp" alt="Блюдо местной кухни на тарелке рядом с табличкой «Блюда местного края»" width="1200" height="900" loading="lazy" decoding="async" data-v-parallax="-0.4"></div>
+          <p>Блюдо из раздела «Блюда местного края». Фото со страницы ВКонтакте.</p>
+        </div>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Блюда Вологодского края</h2>
+          <div class="page" style="margin-top: var(--v-6)">
+            <ul>
+              <li><div class="line"><span>Оливье по-русски с разварной лосятиной и солёными грибочками</span><em>200 г · 400 ₽</em></div></li>
+              <li><div class="line"><span>Грузди солёные с картофельными дольками</span><em>100/80/60 г · 500 ₽</em></div><p>Грузди, картофель, сметана, брусника, лук.</p></li>
+              <li><div class="line"><span>Щи томлёные с белыми грибами и лосятиной</span><em>300/50 г · 500 ₽</em></div></li>
+              <li><div class="line"><span>Ржаная калитка с мясом лося</span><em>450 г · 890 ₽</em></div><p>Мясо лося, сливки, лук фри, сыр моцарелла, зелень.</p></li>
+              <li><div class="line"><span>Говядина таёжная с белыми грибами на сковородочке</span><em>400 г · 900 ₽</em></div><p>Говядина, белые грибы, картофель, сливки, сыр моцарелла, зелень, брусника.</p></li>
+              <li><div class="line"><span>Жаркое с лисичками в горшочке</span><em>450 г · 700 ₽</em></div><p>Лисички, картофель, лук, морковь, сыр моцарелла, сливки, болгарский перец.</p></li>
+              <li><div class="line"><span>Биточки из щуки с картофельным пюре и перечным соусом</span><em>420 г · 590 ₽</em></div></li>
+            </ul>
+          </div>
+          <p class="cuisine__note">Цены с меню ресторана на странице ВКонтакте. Остальные разделы меню смотрите на страницах выше. Еда с собой: от 500 ₽.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ДОКАЗАТЕЛЬСТВО: отзывы -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f2ece0" id="otzyvy" aria-label="Отзывы гостей">
+      <div class="v-wrap">
+        <div class="rev__head" data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--lg">Что пишут гости</h2>
+          <div class="rating">
+            <b>5,0</b>
+            <div><div class="stars" aria-hidden="true">★★★★★</div><span class="soft">на Яндекс Картах: 922 оценки, 465 отзывов</span></div>
+          </div>
+        </div>
+        <div data-v-in>
+          <p class="rev__big">«Интерьер приятный, комфортный. Нас встретили очень приветливо, персонал вежлив»</p>
+          <p class="who">Гость ресторана, 23 июля 2026</p>
+        </div>
+        <p class="rev__more"><a class="link" href="https://yandex.ru/maps/org/lyubimy_gorod/53932832036/reviews/" target="_blank" rel="noopener">Читать все отзывы на Яндекс Картах</a></p>
+      </div>
+    </section>
+
+    <!-- 6 · ПРАЗДНИКИ: банкеты и компании -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#efe8da" id="banket" aria-label="Банкеты и праздники">
+      <div class="v-wrap fest">
+        <div class="fest__ph">
+          <div class="a"><img src="assets/zal-wide.webp" alt="Основной зал: диваны, столы, белое пианино" width="1200" height="900" loading="lazy" decoding="async" data-v-parallax="-0.3"></div>
+          <div class="b" data-v-reveal="left" data-v-reveal-at="0.2 0.5"><img src="assets/banket-b.webp" alt="Накрытый банкетный стол с цветами и закусками" width="900" height="600" loading="lazy" decoding="async"></div>
+        </div>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Банкет, праздник или встреча большой компанией</h2>
+          <p class="v-body" style="margin-top: var(--v-5)">Накрываем столы под вашу компанию: зал с резными колоннами и диванами, на праздниках бывают живая музыка и диджей. Цену банкета называем до бронирования.</p>
+          <ul class="facts">
+            <li><span>Зал</span><b>до <span class="slot">{{N}}</span> гостей</b></li>
+            <li><span>Меню банкета</span><b>уточнить по телефону</b></li>
+            <li><span>Кейтеринг</span><b>есть</b></li>
+            <li><span>Бронь</span><b>по телефону, заранее</b></li>
+          </ul>
+          <p style="margin-top: var(--v-6)"><a class="link" href="tel:+79210528090">Обсудить праздник: +7 921 052-80-90</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · ДОВЕРИЕ: как найти -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#f2ece0" id="doroga" aria-label="Как найти">
+      <div class="v-wrap road">
+        <div class="road__ph"><img src="assets/vhod.webp" alt="Вход в ресторан: вывеска «Любимый город», резные деревянные двери, красная дорожка" width="1200" height="900" loading="lazy" decoding="async" data-v-parallax="-0.4"></div>
+        <div data-v-in data-v-stagger="70">
+          <h2 class="v-display v-display--md">Как нас найти</h2>
+          <p class="v-body" style="margin-top: var(--v-5)">Ресторан на площади Коммуны в Великом Устюге. Ищите зелёно-белое здание с золотой вывеской «Любимый город» над резными деревянными дверями.</p>
+          <ul class="facts">
+            <li><span>Адрес</span><b>Великий Устюг, площадь Коммуны, 1</b></li>
+            <li><span>Часы</span><b>вторник – воскресенье 12:00 – 23:00, понедельник выходной</b></li>
+            <li><span>Телефон</span><b><a class="link" href="tel:+79210528090">+7 921 052-80-90</a></b></li>
+            <li><span>Еда с собой</span><b>от 500 ₽</b></li>
+            <li><span>Признание</span><b>награда «Сердце гостеприимства», октябрь 2026</b></li>
+          </ul>
+          <div class="actions">
+            <a class="v-btn v-btn--ghost" href="https://yandex.ru/maps/org/lyubimy_gorod/53932832036/" target="_blank" rel="noopener">Открыть на Яндекс Картах</a>
+            <a class="v-btn v-btn--ghost" href="https://vk.ru/restaurantfavoritecity" target="_blank" rel="noopener">Мы во ВКонтакте</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 · ДЕЙСТВИЕ -->
+    <section class="v-section final" data-v-act="flow" data-v-drift="#f6efe2" data-v-spotlight aria-label="Забронировать стол">
+      <div class="v-wrap">
+        <div class="close" data-v-in data-v-stagger="90">
+          <h2 class="v-display v-display--lg">Забронируйте стол в «Любимом городе»</h2>
+          <p class="soft">Позвоните, и мы оставим для вас стол. Для банкета и большой компании назовём цену до бронирования.</p>
+          <div class="actions">
+            <a class="v-btn" href="tel:+79210528090" data-v-magnet="0.2" data-v-rise="0">Забронировать стол</a>
+            <span class="hero__when"><b>+7 921 052-80-90</b><br>вторник – воскресенье, 12:00 – 23:00</span>
+          </div>
+        </div>
+        <footer class="foot">
+          <span>Ресторан «Любимый город», Великий Устюг, площадь Коммуны, 1. <span class="slot">{{юрлицо}}</span></span>
+          <span>Фото и меню – со страницы ресторана ВКонтакте. Демо-сайт собран по открытым данным из карточки на Яндекс Картах и страницы ВКонтакте.</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+  <dialog class="lb" data-lb aria-label="Страница меню">
+    <img src="" alt="" data-lb-img>
+    <button type="button" class="lb__close" data-lb-close aria-label="Закрыть">Закрыть</button>
+  </dialog>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+(function () {
+  "use strict";
+  // ---- «Сегодня в Любимом городе»: открыто ли сейчас (время Москвы, вт–вс 12–23, пн выходной) ----
+  var TZ = 3;
+  var OPEN = 12 * 60, CLOSE = [23, 0, 23, 23, 23, 23, 23]; // вс..сб, часы закрытия (0 = выходной)
+  var DAYS = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+  var MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+  var $ = function (s) { return document.querySelector(s); };
+
+  try {
+    var now = new Date(Date.now() + TZ * 36e5); // часы Москвы в полях UTC
+    var mo = now.getUTCMonth(), d = now.getUTCDate(), wd = now.getUTCDay();
+    var cur = now.getUTCHours() * 60 + now.getUTCMinutes();
+    var closeH = CLOSE[wd];
+
+    $("[data-today-date]").textContent = "Сегодня, " + d + " " + MONTHS[mo] + ", " + DAYS[wd];
+    var li = $('[data-hours] [data-d="' + wd + '"]'); if (li) li.classList.add("is-today");
+
+    var st = $("[data-status]"), stt = $("[data-status-text]");
+    if (closeH === 0) {
+      st.classList.add("is-closed");
+      stt.textContent = "Сегодня выходной, ждём вас во вторник с 12:00";
+      $("[data-time-label]").textContent = "Сегодня";
+      $("[data-time-text]").textContent = "выходной";
+      $("[data-time-note]").textContent = "Откроемся во вторник в 12:00. Стол на вторник можно забронировать уже сейчас.";
+    } else {
+      var isOpen = cur >= OPEN && cur < closeH * 60;
+      st.classList.toggle("is-closed", !isOpen);
+      stt.textContent = isOpen ? "Сейчас открыто, до " + closeH + ":00"
+        : cur < OPEN ? "Сейчас закрыто, откроемся сегодня в 12:00"
+        : (wd === 0 ? "Сейчас закрыто, откроемся во вторник в 12:00" : "Сейчас закрыто, откроемся завтра в 12:00");
+    }
+  } catch (e) { /* блок остаётся с текстом по умолчанию */ }
+
+  // ---- страницы меню: крупно по клику ----
+  var lb = $("[data-lb]"), lbImg = $("[data-lb-img]");
+  if (lb && lb.showModal) {
+    document.querySelectorAll("[data-full]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var img = b.querySelector("img");
+        lbImg.src = b.getAttribute("data-full"); lbImg.alt = img ? img.alt : "";
+        lb.showModal();
+      });
+    });
+    $("[data-lb-close]").addEventListener("click", function () { lb.close(); });
+    lb.addEventListener("click", function (e) { if (e.target === lb) lb.close(); });
+  }
+
+  var hdr = document.querySelector(".bar");
+  var onScroll = function () { hdr.classList.toggle("is-scrolled", scrollY > 40); };
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+  Vibe.mount(document.querySelector(".v-page"));
+})();
+</script>
+</body>
+</html>
